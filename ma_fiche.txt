@@ -1,0 +1,17 @@
+Nom du fichier photo : photo.png
+
+Prénom : Johan
+
+Nom : Ladine
+
+Date de naissance : 04/07/1992
+
+Adresse : lot les clauzels 
+
+Email : ladine.johan@gmail.com
+
+Biographie : Ancien boulanger
+
+Projet pro futurs : Freelance
+
+Hobbies : Quad enduro
