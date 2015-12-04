@@ -1,19 +1,40 @@
-Nom du fichier photo : photo.png
+TITRE : NOM PRENOM | Còdi n Camp - Promo 1
 
-Prénom : Johan
+HEADER : NOM PRENOM - Promo 1
 
-Nom : Ladine
+Nom
 
-Date de naissance : 04/07/1992
+Prénom
 
-Adresse : lot les clauzels 
+Ville
 
-Département : 48 
+Age
 
-Email : ladine.johan@gmail.com
+Email
 
-Biographie : Ancien boulanger
+----------------------------------------
 
-Projet pro futurs : Freelance
+Biographie
 
-Hobbies : Quad enduro
+----------------------------------------
+
+Objectif après Còdi n Camp
+
+----------------------------------------
+
+Projets
+
+	Réalisée
+
+	En cours
+
+----------------------------------------
+
+Loisirs
+----------------------------------------
+
+FOOTER © - Còdi n Camp - 2015 - CC BY SA-NC
+
+
+
+
