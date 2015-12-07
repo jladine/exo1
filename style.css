@@ -1,16 +1,15 @@
 body {
-    font-size: 15px;
-    margin: 0px;
-    font-family: Helvetica, Arial;
+  font-size: 15px;
+  margin: 0px;
+  font-family: Helvetica, Arial;
  }
 
 header {
-   text-align: center;
-   font-size: 45px;
+  background-color: black;
  }
 
  .gris {
-   background-color: #F7F7F7;
+  background-color: #F7F7F7;
  }
 
 p, li {
@@ -23,11 +22,11 @@ p, li {
   color: black;
 }
 
-span {
+#vert_claire {
   color: #B2C347;
 }
 
-a {
+#github {
   color:#71B43D;
   text-decoration: none;
   font-weight: bold;
@@ -36,16 +35,49 @@ a {
 
 h3 {
   display: inline-block;
-  vertical-align: top;
   color: #71B43D;
-  text-shadow: 5px 5px 5px #B2C347;
-}
-
-img {
-  display: inline-block;
-  width: 10%;
+  font-size: 30px;
+  margin-left: 50px;
 }
 
 div {
   margin-left: 100px;
 }
+
+nav {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.menu {
+  margin: auto;
+}
+
+.menu li {
+  display: inline-block;
+  margin:10px 30px
+}
+
+.menu li a {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+
+  color: #71B43D;
+}
+
+span {
+  color: #777777;
+}
+
+{
+  border: 1px red dashed;
+}
+ section {
+   width: 100%;
+   display: inline-block;
+ }
