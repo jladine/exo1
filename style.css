@@ -81,3 +81,7 @@ span {
    width: 100%;
    display: inline-block;
  }
+
+ .trombi img{
+   display:block;
+ }
