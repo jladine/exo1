@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>LADINE JOHAN | Còdi n Camp - Promo 1</title>
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <!--script src="/script.js"></script-->
     </head>
     <body>
@@ -12,15 +13,13 @@
         <h3>LADINE <span class="vert_clair">JOHAN</span> - Promo 1</h3>
         <nav>
           <ul class="menu">
-            <li><a href="#moi">Moi</a></li>
+            <li><a href="/trombi_promo1.html">Promo #1</a></li>
             <li><a href="#bio">Biographie</a></li>
             <li><a href="#objectif">Objectifs</a></li>
             <li><a href="#projet">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-
-        <!--img src="lapin.png" alt="lapin de codi n camp"/-->
 	    </header>
 
       <section class="gris">
@@ -34,7 +33,7 @@
             <label>Compte Github : </label><a id="github" href="https://github.com/jladine">jladine</a><br>
           </div>
           <div class="mon_div_image">
-            <img class="ma_photo" src=" http://placehold.it/150x200" alt="photo"/>
+            <img class="ma_photo" src="ma_photo.png" alt="photo"/>
           </div>
         </div>
       </section>
@@ -83,6 +82,28 @@
              <li>Codage</li>
 	        </ul>
         </div>
+      </section>
+
+      <section id="contact" class="fond_gris">
+        <form class="form_contact" action="/back/contact" method="post">
+          <input type="hidden" name="to" value="johjoh04@hotmail.fr">
+          <h1 class="contact_traitement">Contact</h1>
+          <div class="div_label">
+            <label class="label_contact" for="nom">Nom :</label>
+            <input type="text" id="nom" name="user_nom"/>
+          </div>
+          <div class="div_label">
+            <label class="label_contact" for="courriel">Email :</label>
+            <input type="email" id="courriel" name="from" />
+          </div>
+          <div class="div_label">
+            <label class="label_contact" for="message">Message :</label>
+            <textarea id="message" name="body"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Envoyer</button>
+          </div>
+        </form>
       </section>
 
       <footer>
